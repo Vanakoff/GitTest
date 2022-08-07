@@ -22,12 +22,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to test on GitHub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wza-Lu-G7Z">
+                                <rect key="frame" x="142" y="180" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Wza-Lu-G7Z" firstAttribute="top" secondItem="ygN-ou-V6h" secondAttribute="bottom" constant="20" id="7pE-Fv-s45"/>
                             <constraint firstItem="ygN-ou-V6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KDT-MF-Vp6"/>
                             <constraint firstItem="ygN-ou-V6h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="N23-2X-ssz"/>
+                            <constraint firstItem="Wza-Lu-G7Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PkC-yT-Or8"/>
                         </constraints>
                     </view>
                 </viewController>
